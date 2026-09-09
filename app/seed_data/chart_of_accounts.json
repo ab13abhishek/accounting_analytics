@@ -1,0 +1,206 @@
+[
+  {
+    "code": "1-1000",
+    "name": "Business Bank Account",
+    "account_type": "ASSET",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1-1100",
+    "name": "Accounts Receivable",
+    "account_type": "ASSET",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1-1300",
+    "name": "Prepaid Expenses",
+    "account_type": "ASSET",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "1-1600",
+    "name": "Accumulated Depreciation",
+    "account_type": "ASSET",
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2-1000",
+    "name": "Accounts Payable",
+    "account_type": "LIABILITY",
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2-1100",
+    "name": "GST Collected",
+    "account_type": "LIABILITY",
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "2-1200",
+    "name": "GST Paid",
+    "account_type": "LIABILITY",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "2-1600",
+    "name": "Accrued Expenses",
+    "account_type": "LIABILITY",
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4-1000",
+    "name": "Sales Revenue",
+    "account_type": "INCOME",
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4-1010",
+    "name": "Service Revenue",
+    "account_type": "INCOME",
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4-1020",
+    "name": "Interest Income",
+    "account_type": "INCOME",
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4-1030",
+    "name": "Other Income",
+    "account_type": "INCOME",
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "4-1040",
+    "name": "Commission Income",
+    "account_type": "INCOME",
+    "normal_balance": "CREDIT"
+  },
+  {
+    "code": "6-1000",
+    "name": "Advertising & Marketing",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1010",
+    "name": "Bank Fees & Charges",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1020",
+    "name": "Cleaning Expenses",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1030",
+    "name": "Consulting & Accounting Fees",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1040",
+    "name": "Electricity & Gas",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1050",
+    "name": "Freight & Courier",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1060",
+    "name": "Insurance",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1070",
+    "name": "Interest Expense",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1080",
+    "name": "Motor Vehicle Expenses",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1090",
+    "name": "Office Supplies",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1100",
+    "name": "Rent",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1110",
+    "name": "Repairs & Maintenance",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1120",
+    "name": "Subscriptions & Software",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1130",
+    "name": "Superannuation",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1140",
+    "name": "Telephone & Internet",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1150",
+    "name": "Wages & Salaries",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1160",
+    "name": "Workers Compensation",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1170",
+    "name": "Printing & Stationery",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1180",
+    "name": "Staff Amenities",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1190",
+    "name": "Training & Development",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  },
+  {
+    "code": "6-1200",
+    "name": "Depreciation Expense",
+    "account_type": "EXPENSE",
+    "normal_balance": "DEBIT"
+  }
+]
