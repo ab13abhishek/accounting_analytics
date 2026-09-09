@@ -2,8 +2,7 @@
 
 A double-entry bookkeeping engine exposed as a FastAPI service: **Journal → Ledger →
 Trial Balance → P&L → Balance Sheet**, all computed live from journal lines (nothing
-downstream is stored — fix a journal line and every report recalculates), plus a
-CFA-style ratio/analytics layer across 50 seeded real-world small-business cases.
+downstream is stored — fix a journal line and every report recalculates).
 
 ## Source data
 
@@ -47,8 +46,7 @@ sheet and no owner's-equity account in its chart of accounts (by design — it's
 bookkeeping/GST practice set, not a full statutory set of accounts). Equity is
 therefore derived as a single **Retained Earnings (current period) = Net Profit**
 line, so `Assets = Liabilities + Equity` holds exactly (verified for all 50 cases
-in `tests/test_accounting_engine.py::test_balance_sheet_balances`). Say this
-explicitly if you cite the balance sheet in your CFA write-up.
+in `tests/test_accounting_engine.py::test_balance_sheet_balances`)..
 
 ## Run it
 
@@ -85,11 +83,6 @@ GET /analytics/industry-benchmark   # avg net margin / current ratio per industr
 POST /companies/1/journal           # add a new double-entry transaction (rejected if unbalanced)
 ```
 
-## For the CFA project
-
-Because every company here is a distinct business in a distinct industry for a
-single period, "trend" analysis in this dataset means **cross-sectional
-comparison** (company vs. company, industry vs. industry, category vs. category)
 rather than one company over time — `/analytics/ratios` and
 `/analytics/industry-benchmark` are built for exactly that. The four JD
 categories (Month-End Processing, AR/AP & Invoice Processing, Daily Transaction
